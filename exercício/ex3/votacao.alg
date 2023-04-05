@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "votacao"
+// FunÃ§Ã£o :
 // Autor :
 // Data : 15/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 voto, fin, vencer, cand1, cand2, cand3: real
 i: inteiro
@@ -12,7 +12,7 @@ cand1<-0
 cand2<-0
 cand3<-0
 repita
-      escreva("1-José da Silva, 2-Maria Juruma, 3-João da Pamonha. 4- finaliza votação")
+      escreva("1-JosÃ© da Silva, 2-Maria Juruma, 3-JoÃ£o da Pamonha. 4- finaliza votaÃ§Ã£o")
       leia(voto)
       se(voto=1) entao
                  i <- i+1
